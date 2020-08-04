@@ -1,5 +1,10 @@
 server:
   port: 8081
+  
+spring:
+  application:
+    desc: "Contains movie catalog"
+  
 management:
   endpoints:
     web:
