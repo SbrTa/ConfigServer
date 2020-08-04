@@ -3,11 +3,4 @@ server:
   
 spring:
   application:
-    desc: "Contains movie catalog"
-  
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-#        include: "hystrix.stream"
+    desc: "Contains movie catalog updated"
