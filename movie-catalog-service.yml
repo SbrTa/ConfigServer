@@ -4,3 +4,8 @@ server:
 spring:
   application:
     desc: "Contains movie catalog"
+
+apps:
+  movie-data-service: "http://movie-data-service"
+  movie-info-service: "http://movie-info-service"
+  
