@@ -8,4 +8,12 @@ spring:
 apps:
   movie-data-service: "http://movie-data-service"
   movie-info-service: "http://movie-info-service"
+
+apis:
+  movie-data-service:
+    ratings-by-user: "/ratings/user/%s"
+  movie-info-service:
+    movie-info-by-id: "/movies/%s"
+
+
   
